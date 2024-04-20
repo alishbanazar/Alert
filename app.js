@@ -13,3 +13,5 @@ alert(`Happy Coding!
 Prevent this page from creating additional dialogs`);
 //task-5//
 alert("Hello.... I can run JS through my web browser's console")
+
+console.log("Hello World")
