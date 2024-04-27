@@ -37,3 +37,14 @@ alert("I am trying to learn from the book "+ book);
 // question#8
 document.write("Yah! I can write HTML content through Javascript");
 
+// question#9
+// Store the string in a variable
+var message = "Yah! I can write HTML content through JS";
+
+// Display the message in an alert
+alert(message);
+
+// Display the message in the browser
+document.write(message);
+
+
