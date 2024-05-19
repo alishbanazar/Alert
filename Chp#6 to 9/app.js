@@ -33,6 +33,15 @@ var userName = prompt("Please enter your name:");
 alert("Hello, " + userName + "! Welcome to our website!");
 
 // question no#4
+var tableNo = +prompt("Enter a number");
+if (tableNo==0){
+    for(var i=1;i<=10;i++){document.write(5 + "x" + i + "=" + 5*i + "<br>")}
+
+    }
+    else{
+        for(var i=0;i<=10;i++){document.write(tableNo + "x" + i + "=" + tableNo*i + "<br>")}
+    }
+
 // question no#5
 
 // Take three subjects' names from the user
@@ -100,3 +109,5 @@ document.write("<th>"+percentage+"%"+"</th>");
 document.write("</tr>");
 document.write("</Table>")
 
+
+        //    completed

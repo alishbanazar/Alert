@@ -54,5 +54,6 @@ var totalPrice = ticketPrice*5
 document.write("Total cost to buy 5 tickets to a movie is " + totalPrice + "PKR" + "<br>")
 
 // question no#5
+// Write a script to display multiplication table of any number in your browser.
 
 
