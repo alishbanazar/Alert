@@ -16,4 +16,4 @@
 // var orderPlace = "<b> Pizza Max </b>";
 // document.write(visitorName + productName + orderPlace)
 
-    //  completed
+        //  chapter completed
