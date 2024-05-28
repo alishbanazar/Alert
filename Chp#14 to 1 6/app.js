@@ -85,9 +85,54 @@ var colors = [];
 // colors.pop();
 // document.write("Updated Array:" + colors + "<br>");
 
-// f. Ask the user at which index he/she wants to add a color & color name. Then add the color to desired position/index. 
-//  Display the updated array in your browser.
- var index = +prompt("At which index number you want to add new color");
- var colorName = +prompt("And which color ?");
- colors.splice =(index,1,colorName);
- document.write("Updated Array:" + colors + "<br>");
+// f. Ask the user at which index he/she wants to add a color & color name. Then add the color to desired position/index.
+
+// var index=+prompt('At which index no you want to add color');
+// var colorName=prompt('And which color ?');
+// colors.splice(index,0,colorName);
+// document.write('Updated array :'+ colors+'<br>')
+
+// g. Ask the user at which index he/she wants to delete color(s) & how many colors he/she wants to delete
+
+// index=+prompt(' At which index you want to delete color' );
+// var deleteCount=+prompt('How many colors do you want to delete?');
+// colors.splice(index,deleteCount);
+// document.write('Updated array :'+ colors+'<br>')
+
+
+// 10. Write a program to store student scores in an array & sort the array in ascending order using Array’s sort method. 
+// var score = [320,220,480,120];
+// document.write("Score of students :" + score + "<br>");
+// document.write("Score of students :" + score.sort() + "<br>");
+
+// 11. Write a program to initialize an array with city names. Copy 3 array elements from cities array to selectedCities array. 
+
+// var citiesList = [ "Karachi","Lahore" , "Islamabad" , "Quetta", "Peshawar"];
+// document.write("<h3>Cities List: </h3>" + "<br>"+ citiesList + "<br>");
+// document.write("<h3>Selected cities: </h3>" + "<br>"+ citiesList.slice(2,4) + "<br>");
+
+//12. Write a program to create a single string from the below mentioned array: var arr = [“This ”, “ is ”, 
+// “ my ”, “ cat”];
+// var array = ["This","is", "my", "cat"];
+// document.write("Array:" + "<br>" + array + "<br>");
+
+// var string=array.join(' ');
+// document.write('String : '+'<br>'+string);
+
+//13. Create a new array. Store values one by one in such a way that you can access the values in the order in which
+//they were stored. (FIFO-First In First Out)
+
+// var devices = ["Keyboard", " mouse", "printer", "monitor"];
+// document.write(" <h3>Devices:<h3>" + "<br>"+ devices + "<br>" + "<br>")
+// document.write ("<h3>Out:</h3>" + "<br>" + devices.shift() + "<br>");
+// document.write (" <h3>Out: </h3>" + "<br>" + devices.shift() + "<br>" );
+// document.write (" <h3>Out:</h3>" + "<br>" + devices.shift() + "<br>");
+// document.write ("<h3>Out:</h3>" + "<br>" + devices.shift() + "<br>");
+
+// 15.  Write a program to store phone manufacturers (Apple, Samsung, Motorola, Nokia, Sony & Haier) in an array. 
+//Display the following dropdown/select menu in  browser using document.write() method: 
+
+
+
+
+
