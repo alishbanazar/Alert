@@ -129,8 +129,15 @@ var colors = [];
 // document.write (" <h3>Out:</h3>" + "<br>" + devices.shift() + "<br>");
 // document.write ("<h3>Out:</h3>" + "<br>" + devices.shift() + "<br>");
 
-// 15.  Write a program to store phone manufacturers (Apple, Samsung, Motorola, Nokia, Sony & Haier) in an array. 
-//Display the following dropdown/select menu in  browser using document.write() method: 
+//14. Create a new array. Store values one by one in such a way that you can access the values in reverse order.
+//(Last In-First Out)
+// var devices = ["Keyboard", " mouse", "printer", "monitor"];
+// document.write(" <h3>Devices:<h3>" + "<br>"+ devices + "<br>" + "<br>");
+
+// document.write ("<h3>Out:</h3>" + "<br>" + devices.pop() + "<br>");
+// document.write ("<h3>Out:</h3>" + "<br>" + devices.pop() + "<br>");
+// document.write ("<h3>Out:</h3>" + "<br>" + devices.pop() + "<br>");
+// document.write ("<h3>Out:</h3>" + "<br>" + devices.pop() + "<br>");
 
 
 
