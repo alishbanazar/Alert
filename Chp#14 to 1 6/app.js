@@ -139,7 +139,16 @@ var colors = [];
 // document.write ("<h3>Out:</h3>" + "<br>" + devices.pop() + "<br>");
 // document.write ("<h3>Out:</h3>" + "<br>" + devices.pop() + "<br>");
 
+//15.  Write a program to store phone manufacturers (Apple, Samsung, Motorola, Nokia, Sony & Haier) in an array.
+//Display the following dropdown/select menu in your browser using document.write() method:
 
+// var phoneManufactur = [ "Apple", "Samsung", "Motorola", "Nokia", "Sony" , "Haier"];
+// document.write("<select>");
+// document.write("<option>"+ phoneManufactur[0]+"</option>");
+// document.write("<option>"+ phoneManufactur[1]+"</option>");
+// document.write("<option>"+ phoneManufactur[2]+"</option>");
+// document.write("<option>"+ phoneManufactur[3]+"</option>");
+// document.write("<option>"+ phoneManufactur[4]+"</option>");
 
-
+               //--------------------------------completed chp # 14 to 16------------------------------
 
